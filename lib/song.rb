@@ -37,6 +37,10 @@ class Song
     artist_hash = Hash.new
     
     @@artists.each do |artist|
+      if artist_hash[artist]
+        artist_hash[artist] += 1
+      else 
+      end
     end
   end
   
