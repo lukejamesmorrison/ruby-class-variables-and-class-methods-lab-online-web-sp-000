@@ -26,7 +26,7 @@ class Song
   end
   
   def self.artists
-   @@artists.unique
+   @@artists.select
   end
   
   def self.genres
