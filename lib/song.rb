@@ -34,10 +34,10 @@ class Song
   end
   
   def self.artist_count
-    @@artists.count
+    @@artists.tally
   end
   
   def self.genre_count
-    @@genres.count
+    @@genres.tally
   end
 end
