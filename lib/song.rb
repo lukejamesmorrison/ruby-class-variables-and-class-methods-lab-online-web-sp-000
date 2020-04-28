@@ -26,11 +26,11 @@ class Song
   end
   
   def self.artists
-   @@artists.filter {|a| a}
+   @@artists.uniq
   end
   
   def self.genres
-   @@genres.filter {|a| a}
+   @@genres.uniq
   end
   
   def self.artist_count
