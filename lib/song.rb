@@ -30,7 +30,7 @@ class Song
   end
   
   def self.genres
-   @@genresv
+   @@genres.filter {|a| a}
   end
   
   def self.artist_count
