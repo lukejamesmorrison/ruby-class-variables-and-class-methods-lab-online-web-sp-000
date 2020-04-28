@@ -34,7 +34,10 @@ class Song
   end
   
   def self.artist_count
-    @@artists.tally
+    artist_hash = Hash.new
+    
+    @@artists.each do |artist|
+    end
   end
   
   def self.genre_count
